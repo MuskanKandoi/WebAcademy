@@ -48,7 +48,7 @@ function App({ cart, removeFromCart, changeQuantity }) {
       </div> : isActive ? <>
         <div className="home">
           <p>Welcome to</p>
-          <h1>EC Fake Store</h1>
+          <h1>WebAcademy</h1>
           <p>
             Experience the ultimate online shopping destination! Explore our curated selection of fashion,
             jewelry, and electronics. Elevate your style and tech game with unbeatable deals and top-notch service.
