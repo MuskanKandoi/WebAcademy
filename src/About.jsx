@@ -12,12 +12,9 @@ function About() {
             </div>
             <div className="github-profile">
                 <img src={githubIcon} alt="github-icon" />
-                <a href="https://github.com/Eligio93/shopping-cart" target="_blank" rel="noopener noreferrer">Eligio93</a>
+                <a href="https://github.com/MuskanKandoi" target="_blank" rel="noopener noreferrer">Muskan Kandoi</a>
             </div>
-            <div className="store-credit">
-                <img src={fakeStoreIcon} alt="fake-store-api-logo" />
-                <a target="_blank" href="https://fakestoreapi.com/">Fake Store API</a>
-            </div>
+            
 
         </div>
     )
