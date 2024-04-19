@@ -25,7 +25,7 @@ function Header({ cart, categories, removeFromCart, changeQuantity }) {
         <img className="hamburger-icon" src={hamburgerIcon} alt="" />
       </button>
 
-      <h1>Ec Fake Store</h1>
+      <h1>WebAcademy</h1>
 
       <ul className="navigation">
         <li>
