@@ -10,10 +10,6 @@ function About() {
                 <p>Background picture from <a href="https://unsplash.com/it/@mohamadaz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mohammad Alizade</a> on <a href="https://unsplash.com/it/foto/unimmagine-sfocata-di-uno-sfondo-blu-e-rosa-XgeZu2jBaVI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
                 </p>
             </div>
-            <div className="github-profile">
-                <img src={githubIcon} alt="github-icon" />
-                <a href="https://github.com/Eligio93/shopping-cart" target="_blank" rel="noopener noreferrer">Eligio93</a>
-            </div>
             <div className="store-credit">
                 <img src={fakeStoreIcon} alt="fake-store-api-logo" />
                 <a target="_blank" href="https://fakestoreapi.com/">Fake Store API</a>
