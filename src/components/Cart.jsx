@@ -53,7 +53,7 @@ function Cart({ cart, removeFromCart, changeQuantity }) {
           </div>
           <div className="checkout-info">
             <p>
-              Subtotal: ${" "}
+              Subtotal: "Rs" {" "}
               {cart
                 .reduce((acc, item) => {
                   return (acc += item.totPrice);
