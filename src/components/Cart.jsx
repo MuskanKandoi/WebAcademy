@@ -1,10 +1,21 @@
-import emptyCartIcon from "../assets/img/emptyCartIcon.svg"
-
+import { useState } from 'react';
+import emptyCartIcon from "../assets/img/emptyCartIcon.svg";
 
 function Cart({ cart, removeFromCart, changeQuantity }) {
+  const [orderPlaced, setOrderPlaced] = useState(false);
+
+  const handlePlaceOrder = () => {
+    // Place your order logic here
+    // For demonstration purposes, I'm just setting orderPlaced to true
+    setOrderPlaced(true);
+    // You can add more logic here, like sending data to a server, etc.
+    // Show alert message
+    alert('Order placed successfully!');
+  };
+
   return (
     <>
-      {cart.length == 0 ? (
+      {cart.length === 0 ? (
         <div className="empty-cart">
           <p>Your cart is empty</p>
           <img src={emptyCartIcon} alt="" />
@@ -49,11 +60,14 @@ function Cart({ cart, removeFromCart, changeQuantity }) {
                 }, 0)
                 .toFixed(2)}
             </p>
-            <button className="checkOut">Place Order</button>
+            <button className="checkOut" onClick={handlePlaceOrder}>
+              Place Order
+            </button>
           </div>
         </>
       )}
     </>
   );
 }
+
 export default Cart;
