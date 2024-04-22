@@ -49,7 +49,7 @@ function Cart({ cart, removeFromCart, changeQuantity }) {
                 }, 0)
                 .toFixed(2)}
             </p>
-            <button className="checkOut">Checkout</button>
+            <button className="checkOut">Place Order</button>
           </div>
         </>
       )}
