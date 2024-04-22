@@ -391,6 +391,10 @@ img {
   gap:10px;
   text-align: center;
 }
+.product-card img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+}
 
 /*media queries*/
 
