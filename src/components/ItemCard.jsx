@@ -11,7 +11,7 @@ function ItemCard({ product, addToCart }) {
       </div>
       <p className="product-title">{product.title}</p>
 
-      <p className="product-price">{"$" + product.price}</p>
+      <p className="product-price">{"Rs" + product.price}</p>
       <input
         type="number"
         min="1"
