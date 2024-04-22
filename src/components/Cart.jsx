@@ -33,7 +33,7 @@ function Cart({ cart, removeFromCart, changeQuantity }) {
                     </p>
                   </div>
                 </div>
-                <i>Total: $ {item.totPrice.toFixed(2)}</i>
+                <i>Total: "Rs" {item.totPrice.toFixed(2)}</i>
 
                 <input
                   type="number"
