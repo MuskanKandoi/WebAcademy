@@ -50,11 +50,7 @@ function App({ cart, removeFromCart, changeQuantity }) {
           <p>Welcome to</p>
           <h1>WebAcademy</h1>
           <p>
-            Welcome to WebAcademy, your premier destination for mastering web development skills. 
-            Whether you're just starting your journey or looking to advance your expertise, 
-            our platform offers comprehensive courses, interactive quizzes, and community engagement
-            to support your learning objectives. Dive into HTML, CSS, JavaScript, React.js  
-            with confidence, and explore a world of opportunities in the dynamic field of web development.
+            Welcome to WebAcademy, your premier destination for mastering web development skills. Whether you're just starting your journey or looking to advance your expertise, our platform offers comprehensive courses, interactive quizzes, and community engagement to support your learning objectives. Dive into HTML, CSS, JavaScript, React.js with confidence, and explore a world of opportunities in the dynamic field of web development.
           </p>
           <Link to="products">
             <button>Start Learning</button>
