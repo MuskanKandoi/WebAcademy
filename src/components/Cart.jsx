@@ -33,7 +33,7 @@ function Cart({ cart, removeFromCart, changeQuantity }) {
                     </p>
                   </div>
                 </div>
-                <i>Total: "Rs" {item.totPrice.toFixed(2)}</i>
+                <i>Total:Rs{item.totPrice.toFixed(2)}</i>
 
                 <input
                   type="number"
@@ -53,7 +53,7 @@ function Cart({ cart, removeFromCart, changeQuantity }) {
           </div>
           <div className="checkout-info">
             <p>
-              Subtotal: "Rs" {" "}
+              Subtotal: Rs {" "}
               {cart
                 .reduce((acc, item) => {
                   return (acc += item.totPrice);
