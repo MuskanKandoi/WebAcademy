@@ -57,7 +57,7 @@ function App({ cart, removeFromCart, changeQuantity }) {
             with confidence, and explore a world of opportunities in the dynamic field of web development.
           </p>
           <Link to="products">
-            <button>Shop Now</button>
+            <button>Start Learning</button>
           </Link>
         </div>
       </> : <Outlet />}
